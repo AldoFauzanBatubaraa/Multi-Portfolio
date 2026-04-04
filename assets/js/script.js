@@ -1,20 +1,3 @@
-//INi buat mode hamburger di bagian toggle nav (jadi nanti di mobile ga hancur)
-// MOBILE MENU TOGGLE
-const menuToggle = document.getElementById("menu-toggle");
-const mobileMenu = document.getElementById("mobile-menu");
-
-if (menuToggle) {
-  menuToggle.addEventListener("click", () => {
-    mobileMenu.classList.toggle("open");
-  });
-}
-
-// AUTO CLOSE PAS KLIK LINK
-document.querySelectorAll("#mobile-menu a").forEach(link => {
-  link.addEventListener("click", () => {
-    mobileMenu.classList.remove("open");
-  });
-});
 // ╔══════════════════════════════════════════════════════════╗
 // ║           ⚙️  KONFIGURASI — Edit bagian ini              ║
 // ╚══════════════════════════════════════════════════════════╝
@@ -249,14 +232,14 @@ const PROFILES = [
   // ══════════════════════════════════════════════════════════
   {
     id: 2,
-    name: "Aisha Rahmawati",
-    firstName: "Aisha",
-    lastName: "Rahmawati",
-    role: "UI/UX Designer & Frontend Developer",
+    name: "Aldo Fauzan Batubara",
+    firstName: "Aldo",
+    lastName: "Batubara",
+    role: "Network Engineering Student",
     status: "Available for freelance",
-    desc: "Crafting beautiful digital experiences where pixels meet purpose.",
+    desc: "A Computer Engineering student with basic skills in programming, networking, and computer systems. Highly motivated, with strong problem-solving abilities and experience in technical projects and laboratory work. Eager to grow and contribute in the technology field.",
     accent: "#f472b6",
-    emoji: "🎨",
+    emoji: "",
     photo: "assets/profile3.jpg",    // ← ganti foto Aisha
     stats: { projects: "12+", skills: "5+", exp: "2+" },
     about: "UI/UX designer with strong frontend background. I bridge design and engineering to create beautiful and functional interfaces.",
