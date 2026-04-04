@@ -1,3 +1,7 @@
+//INi buat mode hamburger di bagian toggle nav (jadi nanti di mobile ga hancur)
+function toggleMenu() {
+  document.getElementById('nav-links').classList.toggle('active');
+}
 // ╔══════════════════════════════════════════════════════════╗
 // ║           ⚙️  KONFIGURASI — Edit bagian ini              ║
 // ╚══════════════════════════════════════════════════════════╝
