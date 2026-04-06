@@ -313,7 +313,7 @@ const PROFILES = [
     // ── CV FILE ──────────────────────────────────────────────────────────────
     // Ganti dengan path file PDF CV lo
     // Contoh: "assets/cv/fazila-cv.pdf"
-    cvPath: "assets/portfolio_zaki.pdf",
+    cvPath: "assets/projects/CV ALDO.pdf",
 
     // ── TYPING ANIMATION ─────────────────────────────────────────────────────
     typing: ["IoT Developer", "AI Enthusiast", "Web Developer", "Flutter Engineer"],
