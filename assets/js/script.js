@@ -82,9 +82,7 @@ const PROFILES = [
       { name: "Linux", icon: "https://raw.githubusercontent.com/ZackCode46/portfolioweb/main/assets/images/linux.jpg", pct: 90 },
       { name: "Kuliax", icon: "https://raw.githubusercontent.com/ZackCode46/portfolioweb/main/assets/images/kuliax.jpg", pct: 92 },
       { name: "Ubuntu", icon: "https://raw.githubusercontent.com/ZackCode46/portfolioweb/main/assets/images/ubuntu.jpg", pct: 93 },
-      { name: "Prisma", icon: "https://raw.githubusercontent.com/ZackCode46/portfolioweb/main/assets/images/prisma.jpg", pct: 96 },
       { name: "Node JS", icon: "https://raw.githubusercontent.com/ZackCode46/portfolioweb/main/assets/images/node.jpg", pct: 94 },
-      { name: "C", icon: "https://raw.githubusercontent.com/ZackCode46/portfolioweb/main/assets/images/c.jpg", pct: 86 },
       { name: "Type Script", icon: "https://raw.githubusercontent.com/ZackCode46/portfolioweb/main/assets/images/type.jpg", pct: 94 },
       { name: "Tailwind", icon: "https://raw.githubusercontent.com/ZackCode46/portfolioweb/main/assets/images/tailwind.jpg", pct: 96 },
     ],
@@ -250,50 +248,75 @@ const PROFILES = [
 
   // ══════════════════════════════════════════════════════════
   {
-    id: 2,
-    name: "Aisha Rahmawati",
-    firstName: "Aisha",
-    lastName: "Rahmawati",
-    role: "UI/UX Designer & Frontend Developer",
-    status: "Available for freelance",
-    desc: "Crafting beautiful digital experiences where pixels meet purpose.",
-    accent: "#f472b6",
-    emoji: "🎨",
-    photo: "assets/profile3.jpg",    // ← ganti foto Aisha
-    stats: { projects: "12+", skills: "5+", exp: "2+" },
-    about: "UI/UX designer with strong frontend background. I bridge design and engineering to create beautiful and functional interfaces.",
+    id: 0,
+    name: "Aldo Fauzan Batubara",
+    firstName: "Aldo",
+    lastName: "Fauzan Batubara",
+    role: "Computer Engineering Student",
+    status: "Available for work",
+    desc: "A Computer Engineering student with basic skills in programming, networking, and computer systems. Highly motivated, with strong problem-solving abilities and experience in technical projects and laboratory work. Eager to grow and contribute in the technology field.",
+    accent: "#00e5ff",
+    emoji: "",
+
+    // ── FOTO PROFIL ──────────────────────────────────────────────────────────
+    // Ganti dengan path file foto lo (relatif dari lokasi HTML ini)
+    // Contoh lokal : "assets/fazila.jpg"
+    // Contoh online: "https://i.imgur.com/xxxxx.jpg"
+    photo: "assets/fazilazaki.png",
+
+   
+    about: "A Computer Engineering student with basic skills in programming, networking, and computer systems. Highly motivated, with strong problem-solving abilities and experience in technical projects and laboratory work. Eager to grow and contribute in the technology field.",
     education: [
-      { year: "2023 - Present", title: "Desain Komunikasi Visual", sub: "Semester 4 · Top Student" },
-      { year: "2024", title: "Google UX Design Certificate", sub: "Coursera · Professional Cert" }
+      { year: "2024 - Present", title: "Teknik Komputer", sub: "Semester 4 · Active Student" }
     ],
+
+    // ── SKILLS ────────────────────────────────────────────────
+    // icon: bisa emoji ("🌐") atau URL gambar PNG/SVG
+    // Ikon teknologi gratis: https://devicons.github.io/devicon/
     skills: [
-      { name: "Figma", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg", pct: 97 },
-      { name: "React/Next.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", pct: 88 },
-      { name: "CSS/Animation", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg", pct: 95 },
-      { name: "Adobe XD", icon: "🎨", pct: 90 },
-      { name: "Framer Motion", icon: "🎬", pct: 82 },
+      
+      { name: "Cisco Packet Tracer", icon: "https://raw.githubusercontent.com/ZackCode46/portfolioweb/main/assets/images/OIP.jpg", pct: 85 },
+      { name: "Ki Cad", icon: "https://raw.githubusercontent.com/ZackCode46/portfolioweb/main/assets/images/Kicad.jpg", pct: 80 },
+      { name: "Linux", icon: "https://raw.githubusercontent.com/ZackCode46/portfolioweb/main/assets/images/linux.jpg", pct: 80 },
+      { name: "Kuliax", icon: "https://raw.githubusercontent.com/ZackCode46/portfolioweb/main/assets/images/kuliax.jpg", pct: 80 },
+      { name: "Ubuntu", icon: "https://raw.githubusercontent.com/ZackCode46/portfolioweb/main/assets/images/ubuntu.jpg", pct: 80 },
+      
     ],
-    projects: [
-      { title: "E-commerce Redesign", desc: "Complete UI overhaul boosting conversion by 34%.", tag: "UI/UX", img: "", emoji: "🛍️", liveUrl: "#", srcUrl: "#" },
-      { title: "Design System", desc: "200+ component library for a fintech startup.", tag: "Design", img: "", emoji: "🧩", liveUrl: "#", srcUrl: "#" },
-      { title: "Portfolio Generator", desc: "React tool that generates portfolios from JSON.", tag: "Frontend", img: "", emoji: "⚡", liveUrl: "#", srcUrl: "#" },
-      { title: "Medical App UI", desc: "Teleconsultation app with accessibility-first design.", tag: "Mobile", img: "", emoji: "🏥", liveUrl: "#", srcUrl: "#" },
-    ],
+    
     experience: [
-      { date: "2024 - Present", title: "UI/UX Designer", company: "Creative Agency Bandung", desc: "Designed interfaces for 5+ fintech, health, e-commerce clients.", tags: ["Figma", "Prototyping", "User Research"] },
-      { date: "2023", title: "Frontend Intern", company: "Digital Agency", desc: "Implemented pixel-perfect designs in React.", tags: ["React", "Tailwind", "GSAP"] },
+      { date: "2023 - Present", title: "Data Entry", company: "Personal / Academic", desc: "Handled data input, document organization, and administrative support.", tags: ["Microsoft Word", "Microsoft Excell", "Data Input Website Company Profile",] },
+     },
     ],
+
+    // ── KONTAK ────────────────────────────────────────────────────────────────
+    // icon sosmed: bisa emoji atau URL gambar PNG/SVG
     contact: {
-      email: "aisha@email.com",
+      email: "AldoFauzanBatubara@gmail.com",
       socials: [
-        { label: "Email", value: "aisha@email.com", href: "mailto:aisha@email.com", icon: "📧" },
-        { label: "LinkedIn", value: "linkedin.com/in/aisha", href: "https://linkedin.com/in/aisha", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" },
-        { label: "GitHub", value: "github.com/aisha", href: "https://github.com/aisha", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
-        { label: "Instagram", value: "@aisha.design", href: "https://instagram.com/aisha.design", icon: "📸" },
+        {
+          label: "Email",
+          value: "AldoFauzanBatubara@gmail.com",
+          href: "mailto:AldoFauzanBatubara@gmail.com",
+          icon: "https://cdn.jsdelivr.net/gh/ZackCode46/portfolioweb@main/assets/images/gmail.jpg"
+        },
+       
+        {
+          label: "Instagram",
+          value: "@alddxzy",
+          href: "https://www.instagram.com/alddxzy?igsh=MXNiczAyZGd4ZWZxbw==",
+          icon: "https://raw.githubusercontent.com/ZackCode46/portfolioweb/main/assets/images/instagram-removebg-preview.png"
+          // Atau URL ikon instagram custom
+        },
       ]
     },
-    cvPath: "assets/cv/aisha-cv.pdf",
-    typing: ["UI/UX Designer", "Frontend Dev", "Creative Technologist", "Design System Builder"],
+
+    // ── CV FILE ──────────────────────────────────────────────────────────────
+    // Ganti dengan path file PDF CV lo
+    // Contoh: "assets/cv/fazila-cv.pdf"
+    cvPath: "assets/portfolio_zaki.pdf",
+
+    // ── TYPING ANIMATION ─────────────────────────────────────────────────────
+    typing: ["IoT Developer", "AI Enthusiast", "Web Developer", "Flutter Engineer"],
   },
 
   // ══════════════════════════════════════════════════════════
