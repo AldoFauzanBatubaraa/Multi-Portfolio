@@ -51,7 +51,7 @@ const PROFILES = [
     // Ganti dengan path file foto lo (relatif dari lokasi HTML ini)
     // Contoh lokal : "assets/fazila.jpg"
     // Contoh online: "https://i.imgur.com/xxxxx.jpg"
-    photo: "assets/projects/aldopoto.png",
+    photo: "assets/fazilazaki.png",
 
     stats: { projects: "8+", skills: "5+", exp: "2,5+" },
     about: "Passionate Computer Engineering student focused on IoT systems, AI automation, robotics, embedded systems, web development, Databases, Fullstack Dev, Network & Struckture Computer and software engineering.",
@@ -262,7 +262,7 @@ const PROFILES = [
     // Ganti dengan path file foto lo (relatif dari lokasi HTML ini)
     // Contoh lokal : "assets/fazila.jpg"
     // Contoh online: "https://i.imgur.com/xxxxx.jpg"
-    photo: "assets/fazilazaki.png",
+    photo: "assets/projects/aldofauzan.jpeg",
 
    
     about: "A Computer Engineering student with basic skills in programming, networking, and computer systems. Highly motivated, with strong problem-solving abilities and experience in technical projects and laboratory work. Eager to grow and contribute in the technology field.",
